@@ -1,3 +1,7 @@
+Note:
+when execute config.sh for environment initilization, 
+please use "source config.sh" instead of "./config.sh"
+
 git add .
 git commit -m "first commit"
 git remote add origin https://github.com/yf2009017/soft.git
