@@ -1,0 +1,9 @@
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/yf2009017/soft.git
+git push -u origin master
+
+If you want to continue making changes and pushing them to GitHub you’ll just need to use the following three commands:
+git add .
+git commit -m "type your commit message here"
+git push origin master
