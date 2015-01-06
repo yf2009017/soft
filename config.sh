@@ -16,8 +16,8 @@ tar -jxvf mpich.tar.bz -C $HOME
 tar -zxvf wget.tar.gz -C $HOME
 
 > /etc/environment  #  clear the file contents
-echo PATH=$MPIDIR/bin:$WGET/bin:$PATH >>/etc/environment
-echo LD_LIBRARY_PATH=$MPIDIR/lib:$LD_LIBRARY_PATH >> /etc/environment
+echo "PATH=$MPIDIR/bin:$WGET/bin:$PATH" >>/etc/environment
+echo "LD_LIBRARY_PATH=$MPIDIR/lib:$LD_LIBRARY_PATH" >> /etc/environment
 source /etc/environment
 chmod +x $MPIDIR/bin/*
 chmod +x $WGET/bin/*
