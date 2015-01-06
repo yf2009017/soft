@@ -22,5 +22,6 @@ source /etc/environment
 chmod +x $MPIDIR/bin/*
 chmod +x $WGET/bin/*
 ## test mpi
+cd Codes
 mpicc hello_mpi.c -o Test
 mpirun -np 4 ./Test
