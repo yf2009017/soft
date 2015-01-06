@@ -1,0 +1,5 @@
+wget http://www.netlib.org/blas/blas.tgz
+tar -zxf blas.tgz
+cd BLAS
+gfortran -O3 -c *.f
+ar cr libblas.a *.o  # creates libblas.a
