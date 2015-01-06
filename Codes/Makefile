@@ -1,4 +1,4 @@
-# serial make
+# parallel make
 
 CC=mpicc
 CXX=mpicxx
