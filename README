@@ -13,3 +13,8 @@ If you want to continue making changes and pushing them to GitHub you’ll just 
 git add .
 git commit -m "type your commit message here"
 git push origin master
+
+
+if you have deleted file by then
+use git commit -am "Remove useless files"
+git push origin master
