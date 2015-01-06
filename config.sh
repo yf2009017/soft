@@ -14,6 +14,8 @@ fi
 
 tar -jxvf mpich.tar.bz -C $HOME
 tar -zxvf wget.tar.gz -C $HOME
+touch $HOME/mytool.sh
+chmod +x $HOME/mytool.sh
 
 > /etc/environment  #  clear the file contents
 echo "PATH=$MPIDIR/bin:$WGET/bin:$PATH" >>/etc/environment
