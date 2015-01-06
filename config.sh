@@ -10,5 +10,5 @@ source /etc/environment
 chmod +x $MPIDIR/bin/*
 chmod +x $WGET/bin/*
 ## test wget
-mpicc main.c -o Test -I$MPIDIR/include -L$MPIDIR/lib -lmpi
+mpicc hello_mpi.c -o Test -I$MPIDIR/include -L$MPIDIR/lib -lmpi
 mpirun -np 4 ./Test
