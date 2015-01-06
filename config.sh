@@ -1,4 +1,7 @@
 #/bin/sh
+git config --global user.email "yangfeiy_f@126.com"            
+git config --global user.name "yf2009017"
+
 MPIDIR=$HOME/mpich
 WGET=$HOME/wget
 if [ -e $MPIDIR ]; then
